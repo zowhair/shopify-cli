@@ -1,5 +1,19 @@
 # @shopify/theme
 
+## 3.84.0
+
+### Minor Changes
+
+- 1f4fd78: Allow multi-environment theme commands to accept flags from CLI
+- b382a89: Prompt for confirmation before running multi-environment theme commands that allow `--force` flag
+
+### Patch Changes
+
+- 828bf47: Fixed issue with json files being returned as html/text content type in theme dev
+- b47f879: Removed workflows folder in .github when cloning skeleton theme
+- 52f999f: Provide error when using non-theme access app password
+  - @shopify/cli-kit@3.84.0
+
 ## 3.83.0
 
 ### Minor Changes
